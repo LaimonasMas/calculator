@@ -7,7 +7,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
-@include('calculator.result')
+{{-- @include('calculator.result') --}}
     @yield('content')
 </body>
 </html>
